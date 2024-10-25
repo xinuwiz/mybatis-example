@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        var version = JavaLanguageVersion.of(8)
+        languageVersion.set(version)
+    }
+}
+
+dependencies {
+    // Database Dependencies
+    implementation('org.mybatis:mybatis:3.5.11')
+    implementation('com.mysql:mysql-connector-j:8.2.0')
+}

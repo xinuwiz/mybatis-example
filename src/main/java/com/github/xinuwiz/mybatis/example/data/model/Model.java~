@@ -1,0 +1,4 @@
+package com.github.xinuwiz.mybatis.example.data.model;
+
+public class Model {
+}
